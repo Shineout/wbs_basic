@@ -775,12 +775,21 @@
     font-size: 15px;
     font-weight: 400;
 }
-.box_oc .buttons .left a {
+/*.box_oc .buttons .left a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #3a859b;
+    text-transform: none;
+}*/
+.box_oc .buttons .left {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #3a859b;
     text-transform: none;
 }
-.box_oc .buttons .left a:hover, .box_oc .buttons .left a:focus, .box_oc .buttons .left a:active {
+/*.box_oc .buttons .left a:hover, .box_oc .buttons .left a:focus, .box_oc .buttons .left a:active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #444;
+}*/
+.box_oc .buttons .left, .box_oc .buttons .left, .box_oc .buttons .left  {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     color: #444;
 }

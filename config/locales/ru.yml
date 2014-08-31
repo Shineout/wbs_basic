@@ -331,7 +331,7 @@ ru:
     add_state: Добавить регион/область
     add_stock: Добавить склад
     add_stock_management: Добавить управление запасами
-    add_to_cart: Добавить в корзину
+    add_to_cart: В корзину
     add_variant: Добавить вариант
     additional_item: Ставка для дополнительных наименований
     address1: Адрес
@@ -956,7 +956,7 @@ ru:
     provider: Провайдер
     provider_settings_warning: Если вы меняете провайдера, вы должны сохранить это изменение, прежде чем вы сможете изменить настройки провайдера.
     qty: Кол-во
-    quantity: Количество
+    quantity: Кол-во
     quantity_returned: Количество возврата
     quantity_shipped: Отправленное количество
     rate: Ставка

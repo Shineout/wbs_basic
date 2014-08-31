@@ -17,8 +17,8 @@
                   <div class="module-inner">
                     <div class="module-ct">
                       <ul class="nav">
-                        <li><%= image_tag "ru.png" , :class => "fa-add2" %><%= I18n.locale = :ru %></li>
-                        <li><%= image_tag "eng.png", :class => "fa-add2"  %><%= I18n.locale = :en %></li>
+                        <li><%= image_tag "ru.png" , :class => "fa-add2" %></li>
+                        <li><%= image_tag "eng.png", :class => "fa-add2"  %></li>
                       </ul>
                     </div>
                   </div>
@@ -26,6 +26,7 @@
               </div>
             </div>
           </div>
+
           <div class="toolbar-ct-5">
             <div class="btn-group">
               <i class="fa fa-dollar fa-add"></i><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dollar</button>
@@ -109,13 +110,7 @@
           <div class="head-search ">
             <div style="text-align:right">
 
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'"  >
-                <span class="input-group-btn">
-                <button type="button" class="btn btn-default" onClick="javascript:window.location='search.html'"><span class="icon-search icon-white"></span></button>
-                </span>
-              </div>
-            <!--   <%= render :partial => 'spree/shared/search' %> -->
+              <%= render :partial => 'spree/shared/search' %> 
               <a href="search-2.html" class="search-adv">Advanced search</a>
             </div>
           </div>
