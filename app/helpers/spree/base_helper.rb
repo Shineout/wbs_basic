@@ -79,7 +79,7 @@ module Spree
     end
 
     def breadcrumbs(taxon, separator="&nbsp;&raquo;&nbsp;")
-      return "" if current_page?("/") || taxon.nil?
+      return "none" if current_page?("/") || taxon.nil?
       separator = raw(separator)
       crumbs = [content_tag(:span, link_to(Spree.t(:home), spree.root_path) + separator)]
       if taxon

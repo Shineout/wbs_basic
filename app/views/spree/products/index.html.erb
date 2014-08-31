@@ -4,10 +4,10 @@
       <%= render :partial => 'spree/shared/filters' %>
     <% else %>
       <%= render :partial => 'spree/shared/taxonomies' %>
+      <div><%= breadcrumbs(@taxon, ' / ') %>ff</div>
     <% end %>
   </div>
 <% end %>
-
 
 
 <% if params[:keywords] %>
