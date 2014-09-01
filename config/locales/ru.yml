@@ -705,7 +705,7 @@ ru:
     location: Местоположение
     lock: Lock
     logged_in_as: Пользователь
-    logged_in_succesfully: Вы вошли в систему
+    logged_in_succesfully: Вы успешно вошли в систему
     logged_out: Вы вышли из системы.
     login: Логин
     login_as_existing: Войти как покупатель
